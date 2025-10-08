@@ -1,0 +1,139 @@
+<?php get_header(); ?>
+
+ <!-- ローディング画面 -->
+ <div id="loading">
+  <div class="loading-text">
+    <p>2025年夏・・・</p>
+    <p>素敵な思い出を作りませんか</p>
+    
+  </div>
+</div>
+
+  <section class="cover" id="home">
+    <h1>ようこそ！</h1>
+    <p>スザキトラベルのWebサイトへ</p>
+  </section>
+
+  <div class="my-wrap wrap01">
+    <div class="background parallax-bg-1"></div>
+    <article>
+      <h2 class="content-title" id="about">今年の夏プラン</h2>
+      <div class="whole-content">
+
+        <div class="fade-section fade01">
+          <section class="my-content content-wrapper con01 about">
+            <div class="content-innner">
+              <p class="con-num num01">01</p>
+              <h3>概要</h3>
+              <div class="detail de1">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img01.jpg" alt="" class="summer">
+                <p>夏の旅行先として自然豊かな上高地や美しいビーチを紹介し、季節ならではの魅力や過ごし方を提案します。日常を離れてリフレッシュできる体験や、リゾートでのんびりとした時間、アクティビティや絶景を楽しむプランを通して、夏の思い出づくりにぴったりな旅のイメージを伝えています。</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="fade-section fade02">
+          <section class="my-content content-wrapper con02 contact">
+            <div class="content-innner">
+              <p class="con-num num02">02</p>
+              <h3>暑い夏のご提案</h3>
+              <div class="detail de2">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img03.jpg" alt="" class="summer">
+                <p>暑い夏には、ビーチへの旅行はいかがでしょうか？透き通る青い海と白い砂浜が広がる海辺で、日常を忘れてリラックスできます。波の音を聞きながらのんびり過ごしたり、シュノーケリングやビーチアクティビティで思いきり楽しんだりと過ごし方は自由自在。夕方には美しいサンセットがロマンチックなひとときを演出してくれます。夏ならではの開放感を満喫できるビーチ旅は、きっと心に残る特別な体験になるでしょう。</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="fade-section fade03">
+          <section class="my-content content-wrapper con03 plan">
+            <div class="content-innner">      
+              <p class="con-num num03">03</p>
+              <h3>今年の夏のプラン</h3>
+              <div class="detail de3">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img04.jpg" alt="" class="summer">
+                <p>今年の夏はビーチで心も体もリフレッシュしませんか？沖縄本島や石垣島など、美しいエメラルドグリーンの海でシュノーケリングやSUPを楽しんだり、夕暮れには砂浜でのんびりサンセットを眺めたり。リゾートホテルで贅沢に過ごすのもおすすめです。南国グルメや地元の文化も味わいながら、心に残る夏の思い出をつくりましょう。</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="fade-section fade04">
+          <section class="my-content content-wrapper con04 place">
+            <div class="content-innner">
+              <p class="con-num num04">04</p>
+              <h3>行先はお好きなところへ</h3>
+              <div class="detail de4">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img02.jpg" alt="" class="summer">
+                <p>この夏の旅行には、自然とリフレッシュを満喫できる長野県・上高地がおすすめです。涼やかな気候の中、美しい梓川沿いを散策したり、雄大な穂高連峰を眺めながら非日常を味わえます。ハイキング初心者でも楽しめるコースが豊富で、温泉や地元グルメも充実。都会の喧騒を離れて、心も身体も癒される時間を過ごしてみませんか？</p>
+              </div>
+            </div>
+          </section>
+        </div>
+
+      </div>
+    </article>
+
+  <h2 class="gallery-title" id="gallery-title">ギャラリー</h2>
+  <div class="gallery-container">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-left-solid.png" alt="左矢印" class="arrow arrow-left" id="arrowLeft">
+    <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/arrow-right-solid.png" alt="右矢印" class="arrow arrow-right" id="arrowRight">
+    
+    <div class="gallery" id="gallery">
+      <div class="gallery-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img01.jpg" alt="サンプル画像1"></div>
+      <div class="gallery-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img02_1.jpg" alt="サンプル画像2"></div>
+      <div class="gallery-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img03.jpg" alt="サンプル画像3"></div>
+      <div class="gallery-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img04.jpg" alt="サンプル画像4"></div>
+      <div class="gallery-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img05.jpg" alt="サンプル画像5"></div>
+      <div class="gallery-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img06.jpg" alt="サンプル画像6"></div>
+      <div class="gallery-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img07.jpg" alt="サンプル画像7"></div>
+      <div class="gallery-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img08.jpg" alt="サンプル画像8"></div>
+      <div class="gallery-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img09.jpg" alt="サンプル画像9"></div>
+    </div>
+  </div>
+
+  <div id="imageModal" class="image-modal hidden">
+    <div class="image-modal-content">
+      <button class="close-button" id="closeModal">&times;</button>
+      <img id="modalImage" src="" alt="拡大画像">
+    </div>
+  </div>
+
+  <div class="film">
+    <div class="film-holes top"></div>
+    <div class="film-track">
+      <div class="film-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/beach01.jpg" alt="フィルム1"></div>
+      <div class="film-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/beach02.jpg" alt="フィルム2"></div>
+      <div class="film-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/beach03.jpg" alt="フィルム3"></div>
+      <div class="film-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/beach04.jpg" alt="フィルム4"></div>
+      <div class="film-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/beach05.jpg" alt="フィルム5"></div>
+      <div class="film-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/beach06.jpg" alt="フィルム6"></div>
+      <div class="film-item"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/beach07.jpg" alt="フィルム7"></div>
+    </div>
+    <div class="film-holes bottom"></div>
+  </div>
+  </div>
+  <section>
+    <div class="my-wrap wrap02">
+      <div class="background2 parallax-bg-2"></div>
+      <div class="sub-content">
+        <div class="leasure okinawa">
+          <h2>沖縄</h2>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img01.jpg" alt="">
+          <p>沖縄の美しいビーチでのんびりと過ごす贅沢な時間を提案します。透き通る青い海と白い砂浜が広がる沖縄のビーチは、まさに楽園そのもの。日常の喧騒を忘れ、波の音を聞きながらリラックスしたり、シュノーケリングやダイビングでカラフルな海中世界を探検したりと、様々な楽しみ方があります。夕方には美しいサンセットが広がり、ロマンチックなひとときを演出してくれます。沖縄のビーチで過ごす時間は、心も体もリフレッシュできる特別な体験となるでしょう。</p>
+        </div>
+        <div class="leasure hawaii">
+          <h2>ハワイ</h2>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/img06.jpg" alt="">
+          <p>ハワイへの旅行は、夢のような体験です。美しいビーチ、豊かな自然、そして温かいホスピタリティが魅力のハワイは、リラックスと冒険の両方を楽しむことができます。サーフィンやシュノーケリングなどのアクティビティから、ハイキングや文化体験まで、多彩な楽しみ方があります。地元のグルメやショッピングも充実しており、心に残る思い出を作ることができるでしょう。ハワイでの滞在は、日常を忘れ、心身ともにリフレッシュする絶好の機会です。.</p>
+        </div>
+        <div class="leasure saipan">
+          <h2>サイパン</h2>
+          <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/beach07.jpg" alt="">
+          <p>サイパン島の美しいビーチと豊かな自然は、リラックスと冒険の両方を楽しむことができる理想的な旅行先です。透き通る青い海でのシュノーケリングやダイビングは、カラフルな海中世界を探検する絶好の機会です。また、サイパンの歴史や文化を学ぶこともでき、地元のグルメも堪能できます。サイパンでの滞在は、心身ともにリフレッシュし、忘れられない思い出を作る素晴らしい体験となるでしょう。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+<?php get_footer(); ?>

@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Cocoon Child
+Description: Cocoon専用の子テーマ
+Theme URI: https://wp-cocoon.com/
+Author: わいひら
+Author URI: https://nelog.jp/
+Template:   cocoon-master
+Version:    1.1.3
+*/
+
+/************************************
+** 子テーマ用のスタイルを書く
+************************************/
+.footer{
+  margin-top: 0;
+}
+
+/*ペジネーション*/
+.custom-pagination {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+
+.nav-links{
+   display:flex;
+}
+.page-numbers{
+   display:inline-block;
+   margin-right:10px;
+   padding:10px 20px;
+   color:#666666;
+   border-radius:3px;
+   background:#ffffff;
+  border: 1px solid #666666;
+}
+.page-numbers.current{
+   padding:10px 20px;
+   background:#87cbbe;
+   color:#ffffff;
+}
+.page-numbers.prev,
+.page-numbers.next{
+  width: auto;
+   background:transparent;
+   box-shadow:none;
+     border:none;
+   color:#666666; 
+}
+.page-numbers.dots{
+   background:transparent;
+   box-shadow:none;
+     border:none;
+   color:#666666; 
+}
+
+
+/* レスポンシブデザインのためのメディアクエリ */
+@media (max-width: 600px) {
+.page-numbers,
+.page-numbers.current    {
+     padding:5px 10px; /* パディングを小さく */
+  }
+}
+
+
+/************************************
+** レスポンシブデザイン用のメディアクエリ
+************************************/
+/*1023px以下*/
+@media screen and (max-width: 1023px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*834px以下*/
+@media screen and (max-width: 834px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*480px以下*/
+@media screen and (max-width: 480px){
+  /*必要ならばここにコードを書く*/
+}
