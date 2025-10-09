@@ -71,19 +71,31 @@ window.addEventListener("DOMContentLoaded", () => {
         });
     }
 
-    function initImageModal(galleryItemsSelector) {
+    function initImageModal(galleryItemsSelector, showDetail = false) {
         const galleryItems = document.querySelectorAll(galleryItemsSelector);
         const modal = document.getElementById("imageModal");
         const modalImg = document.getElementById("modalImage");
+        const modalText = document.getElementById("modalText");
         const closeBtn = document.getElementById("closeModal");
     
-        if (!modal || !modalImg || !closeBtn) return; // 要素がなければ何もしない
+        if (!modal || !modalImg || !closeBtn) return; // modalText がなくても開閉はできるようにする
     
         galleryItems.forEach((img) => {
             img.addEventListener("click", () => {
+                // モーダルを開く処理（必ず実行）
                 modal.classList.remove("hidden");
                 modalImg.src = img.src;
                 modalImg.alt = img.alt;
+    
+                // showDetail が true かつ modalText が存在する場合のみ detail を設定
+                if (showDetail && modalText) {
+                    const travelBox = img.closest(".travel-box");
+                    const detailElem = travelBox ? travelBox.querySelector(".detail") : null;
+                    modalText.textContent = detailElem ? detailElem.textContent : "";
+                } else if (modalText) {
+                    // modalText がある場合のみ空にする
+                    modalText.textContent = "";
+                }
             });
         });
     
@@ -91,12 +103,16 @@ window.addEventListener("DOMContentLoaded", () => {
             modal.classList.add("hidden");
             modalImg.src = "";
             modalImg.alt = "";
+            if (modalText) modalText.textContent = "";
         });
     }
-
-    initImageModal(".gallery-item img"); 
-    initImageModal(".travel-box img");
-
+    
+    // .gallery-item には detail 表示なし
+    initImageModal(".gallery-item img");
+    
+    // .travel-box には detail 表示あり
+    initImageModal(".travel-box img", true);
+    
     const track = document.querySelector(".film-track");
     const topHoles = document.querySelector(".film-holes.top");
     const bottomHoles = document.querySelector(".film-holes.bottom");

@@ -46,9 +46,9 @@ if ( !defined( 'ABSPATH' ) ) exit; ?>
         'format' => 'page/%#%/',
         'current' => max(1, $paged),
         'total' => $the_query->max_num_pages,
-        'mid_size' => 2,
-        'prev_text' => '« 前へ',
-        'next_text' => '次へ »',
+        'mid_size' => 1,
+        'prev_text' => '«',
+        'next_text' => '»',
       ));
     }
     ?>

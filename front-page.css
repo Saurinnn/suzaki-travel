@@ -346,7 +346,7 @@ article p {
   top: 10%;
   left: 10%;
   width: 80%;
-  height: auto;
+  height: 700px;
   background: rgba(0, 0, 0, 0.8);
   display: flex;
   justify-content: center;
@@ -362,7 +362,7 @@ article p {
 }
 
 .image-modal-content img {
-  width: 100%;
+  width: 800px;
   height: auto;
   display: block;
 }
