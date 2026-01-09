@@ -98,6 +98,10 @@ body {
   border:none !important;
 }
 
+.footer{
+  margin-top: 0 !important;
+}
+
 /*背景*/
 .my-wrap {
   position: relative; /* 絶対配置の基準にする */
